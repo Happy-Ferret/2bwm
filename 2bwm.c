@@ -41,7 +41,7 @@ enum {TWOBWM_MOVE,TWOBWM_RESIZE};
 #define CONTROL         XCB_MOD_MASK_CONTROL /* Control key */
 #define ALT             XCB_MOD_MASK_1       /* ALT key */
 #define SHIFT           XCB_MOD_MASK_SHIFT   /* Shift key */
-#define WORKSPACES      10
+#define WORKSPACES      3
 enum {BOTTOM_RIGHT, BOTTOM_LEFT, TOP_RIGHT, TOP_LEFT, MIDDLE};
 
 static const uint8_t _WORKSPACES = WORKSPACES;// Number of workspaces.
